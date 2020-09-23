@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>パララックス宿題</title>
+    <meta charset="UTF-8" />
+
+    <link href="style.css" rel="stylesheet" />
+
+    <!--Jquery本体-->
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-latest.min.js"
+    ></script>
+
+    <!--プラグイン-->
+    <script type="text/javascript" src="js/autoptimize.js"></script>
+  </head>
+
+  <body class="home">
+    <!--アニメーション領域 START-->
+    <div id="main" class="swiper-container clearfix">
+      <div id="processWrapper">
+        <section id="process" class="skrollr__target window-height">
+          <!--透明度0にした写真（opacity:0）が重なっており（1枚目だけ透明ではない）、スクロールに応じて1枚づつ順に現れる（opacity:1）-->
+
+          <!--1枚目-->
+          <div
+            class="cut window-height l-centering"
+            data-_skrollr-80p="opacity:1"
+            data-_skrollr-140p="opacity:1"
+          >
+            <img src="img/1.jpg" alt="" class="l-centering__item" />
+          </div>
+
+          <!--2枚目-->
+          <div
+            class="cut window-height l-centering"
+            data-_skrollr-170p="opacity:0"
+            data-_skrollr-230p="opacity:1"
+          >
+            <img src="img/2.jpg" alt="" class="l-centering__item" />
+          </div>
+
+          <!--3枚目-->
+          <div
+            class="cut window-height l-centering"
+            data-_skrollr-260p="opacity:0"
+            data-_skrollr-320p="opacity:1"
+          >
+            <img src="img/3.jpg" alt="" class="l-centering__item" />
+          </div>
+
+          <!--4枚目-->
+          <div
+            class="cut window-height l-centering"
+            data-_skrollr-350p="opacity:0"
+            data-_skrollr-410p="opacity:1"
+          >
+            <img src="img/4.jpg" alt="" class="l-centering__item" />
+          </div>
+
+          <!--5枚目-->
+          <div
+            class="cut window-height l-centering"
+            data-_skrollr-440p="opacity:0"
+            data-_skrollr-500p="opacity:1"
+          >
+            <img src="img/5.jpg" alt="" class="l-centering__item" />
+          </div>
+
+          <!--6枚目-->
+          <div
+            class="cut window-height l-centering"
+            data-_skrollr-530p="opacity:0"
+            data-_skrollr-590p="opacity:1"
+          >
+            <img src="img/6.jpg" alt="" class="l-centering__item" />
+          </div>
+
+          <div
+            class="cut window-height l-centering"
+            data-_skrollr-530p="opacity:0"
+            data-_skrollr-590p="opacity:1"
+          >
+            <img src="img/6.jpg" alt="" class="l-centering__item" />
+          </div>
+        </section>
+      </div>
+    </div>
+    <!--アニメーション領域 END-->
+  </body>
+</html>
